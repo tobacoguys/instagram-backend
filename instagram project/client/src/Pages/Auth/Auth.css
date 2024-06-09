@@ -1,0 +1,21 @@
+.mobileWallpaper{
+    background-image: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/441901005_354385197670951_293177183626386346_n.png?stp=dst-png_s552x414&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF1L9p2lLiYEi4AdWL-NYni6kDZyScvQnLqQNnJJy9CcjANt5qnV7Xut87x3QEQ5RNGw_hMLZxbmmL2WJqclhGd&_nc_ohc=gdV0DBEsHF4Q7kNvgHunnnA&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QHQ38jfpkxMM_qbLX-kmnfDbXB6_8xVjlqTABi037ncpg&oe=6688D2CD");
+    animation: changeBg 8s infinite;
+
+}
+
+
+@keyframes changeBg {
+    0% {
+      background-image: url('https://www.instagram.com/images/instagram/xig/homepage/screenshots/screenshot1-2x.png?__d=www');
+    }
+    25% {
+      background-image: url('https://www.instagram.com/images/instagram/xig/homepage/screenshots/screenshot2-2x.png?__d=www');
+    }
+    50%{
+background-image: url("https://res.cloudinary.com/dnbw04gbs/image/upload/v1679492135/screenshot3_ywhgnv.png");
+    }
+    75% {
+      background-image: url('https://res.cloudinary.com/dnbw04gbs/image/upload/v1679490783/screenshot2_m2zc0v.png');
+    }
+  }
